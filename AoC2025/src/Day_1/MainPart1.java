@@ -40,7 +40,7 @@ public class MainPart1 {
 
     private static void readFile(ArrayList<String> lockPattern) {
         try (Scanner scanner = new Scanner(
-                new java.io.File("AOC-2025\\Day 1\\SecretEntrance\\assets\\lockPattern.txt"))) {
+                new java.io.File("AOC-2025\\AoC2025\\assets\\lockPattern.txt"))) {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 lockPattern.add(line);

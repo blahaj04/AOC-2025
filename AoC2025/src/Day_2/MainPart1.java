@@ -43,7 +43,7 @@ public class MainPart1 {
         String line;
         try {
             Scanner scanner = new Scanner(
-                    new java.io.File("AOC-2025\\Day 1\\SecretEntrance\\assets\\idRanges.txt"));
+                    new java.io.File("AOC-2025\\AoC2025\\assets\\idRanges.txt"));
             while (scanner.hasNextLine()) {
                 line = scanner.nextLine();
                 for (String part : line.split(",")) {

@@ -1,0 +1,5 @@
+package Day_3;
+
+public class MainPart2 {
+    
+}
