@@ -9,12 +9,18 @@ public class MainPart1 {
     static ArrayList<ArrayList<Character>> grid = new ArrayList<>();
 
     public static void main(String[] args) {
+        long startTime = System.nanoTime();
+
         readFile();
         System.out.println(grid.toString());
 
         countAccesibleRols();
 
         System.out.println("Total Accesible Rols: " + accesibleRols);
+
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime) / 1000000; // in milliseconds
+        System.out.println("Execution time: " + duration + " ms");
     }
 
     private static void countAccesibleRols() {
